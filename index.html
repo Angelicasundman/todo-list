@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Task List 2021</title>
+
+	<link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Rubik+Vinyl&display=swap');
+        </style>
+</head>
+<body>
+    
+
+	<header>
+		<h1>Angelicas todos</h1>
+		<form id="new-todo-form">
+			<input 
+				type="text" 
+				name="new-todo-input" 
+				id="new-todo-input" 
+				placeholder="I have to....." />
+			<button type ="submit" class="add"><i class="bi bi-plus-circle-fill"></i>
+            </button>
+            
+		</form>
+        <input id="filterInput" placeholder="Filtrera på...." onkeyup="filterStudents(filterInput.value) ">
+        <br>
+	</header>
+	<main>
+		
+			<h2>Tasks</h2>
+            <div id="todo-list">
+			<!-- <div class="todos" id="0">
+                <p class="content">go get milk</p>
+                <i class="bi bi-trash3"></i>
+
+			</div> -->
+		
+	</main>
+
+	<script src="/main.js"></script>
+</body>
+</html>
